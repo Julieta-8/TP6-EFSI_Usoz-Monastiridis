@@ -1,3 +1,4 @@
+
 import { useEffect, useState, fondoClaro } from "react";
 
 const MovieDetail = ({ peliculaSeleccionada, Set }) => {

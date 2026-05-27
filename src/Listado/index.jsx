@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react'
 import axios from 'axios';
 import MovieCard from "../MovieCard";
@@ -95,5 +96,6 @@ return (
   </>
 );
 };
+
 
 export default Listado;

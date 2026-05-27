@@ -1,3 +1,4 @@
+
 const MovieCard = ({ movie, Set, fondoClaro }) => {
 
   return (
@@ -15,6 +16,7 @@ const MovieCard = ({ movie, Set, fondoClaro }) => {
     </div>
   );
 };
+
 
 
 

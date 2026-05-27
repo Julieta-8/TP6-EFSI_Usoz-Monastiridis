@@ -6,6 +6,7 @@ import axios from 'axios';
 
 function App() {
 
+
    const [fondoClaro, setFondo] = useState(true);
 
   return (
@@ -14,6 +15,7 @@ function App() {
        <Listado fondoClaro={fondoClaro} setFondo={setFondo} ></Listado>
 
 </div>
+
      
     </>
   )
