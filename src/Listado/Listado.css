@@ -59,7 +59,7 @@
 .modo-oscuro {
   background-color: rgb(61, 61, 61);
   color: white;
-
+min-height: 100vh;
 }
 .FondoBoton{
     background-color: #ea0c8d; 
