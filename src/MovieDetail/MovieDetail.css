@@ -73,5 +73,6 @@
 
 .modo-oscuro {
   background-color: rgb(61, 61, 61);
+ min-height: 100vh;
   color: white;
 }
