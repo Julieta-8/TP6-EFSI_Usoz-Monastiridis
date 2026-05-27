@@ -1,6 +1,6 @@
 
     const Searchbar= ({ busqueda, setBusqueda, manejarBusqueda }) => {
-    <form onSubmit={manejarBusqueda} style={{ margin: "20px 0" }}>
+   return( <form onSubmit={manejarBusqueda} style={{ margin: "20px 0" }}>
           <input
             type="text"
             placeholder="Buscar película..."
@@ -9,6 +9,8 @@
           />
           <button type="submit">Buscar</button>
         </form>
-    }
+)
+          }
+
 
     export default Searchbar;
