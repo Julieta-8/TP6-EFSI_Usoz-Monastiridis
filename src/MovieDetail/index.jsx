@@ -1,7 +1,7 @@
 
-import { useEffect, useState, fondoClaro } from "react";
-
-const MovieDetail = ({ peliculaSeleccionada, Set }) => {
+import { useEffect, useState } from "react";
+import noPoster from "../assets/noPoster.webp";
+const MovieDetail = ({ peliculaSeleccionada, Set, fondoClaro }) => {
   const [movie, setMovie] = useState(null);
 
   useEffect(() => {
@@ -31,7 +31,15 @@ const MovieDetail = ({ peliculaSeleccionada, Set }) => {
   <button className="back-btn" onClick={() => Set(null)}>⬅ Volver al listado</button>
   <div className="detail-content">
    
-    <img className="detail-poster" src={movie.Poster !== "N/A" ? movie.Poster : "https://via.placeholder.com/200x300?text=Sin+Poster"} alt={movie.Title} />
+    <img
+  className="detail-poster"
+  src={
+    movie.Poster !== "N/A"
+      ? movie.Poster
+      : noPoster
+  }
+  alt={movie.Title}
+/>
     
    <div className="detail-info">
       <h2>{movie.Title}</h2>

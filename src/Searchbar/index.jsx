@@ -7,7 +7,7 @@
             value={busqueda} 
             onChange={(e) => setBusqueda(e.target.value)} 
           />
-          <button type="submit">Buscar</button>
+          <button className= "search-btn" type="submit">Buscar</button>
         </form>
 )
           }
